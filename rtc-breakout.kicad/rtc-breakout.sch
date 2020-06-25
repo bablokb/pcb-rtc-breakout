@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "RTC-Breakout Connector for a Raspberry Pi"
-Date "2020-06-16"
-Rev "1"
+Date "2020-06-25"
+Rev "1b"
 Comp "Bernhard Bablok"
 Comment1 "https://github.com/bablokb/pcb-rtc-breakout"
 Comment2 ""
@@ -38,7 +38,7 @@ $EndComp
 Text Notes 2800 2750 2    63   ~ 0
 GND\n3V3\nSDA\nSCL\nINT
 Text Notes 4000 1900 1    63   ~ 0
-3V3\nnc  (GPIO2, SDA)\nINT (GPIO3, SCL)\nnc  (GPIO4)\nGND\nSDA\nSCL
+3V3\nnc  (GPIO2, SDA)\nINT (GPIO3, SCL)\nnc  (GPIO4)\nGND\nSDA (GPIO17)\nSCL (GPIO27)
 Wire Wire Line
 	3050 2300 3150 2300
 Wire Wire Line
